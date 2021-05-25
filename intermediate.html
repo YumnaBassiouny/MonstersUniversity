@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class = "subheader">
+        <nav>
+
+            <a href="index.html"><img src="images/output-onlinepngtools.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-university" onclick="hideMenu()" ></i>  
+            
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="applynow.html">APPLY NOW</a></li>
+                    <li><a href="">COURSES</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="intermediate.html">Intermediate</a></li>
+                                <li><a href="undergrade.html">Degree</a></li>
+                                <li><a href="postgrade.html">Post Graduate</a></li>
+                            </ul> 
+                         </div> 
+                    </li>
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><a href="jobs.html">JOBS</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-university" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Intermediate</h1>
+    </section>
+    <section class="intermediate">
+        <h1>START YOUR LEARNING EXPEINCE NOW</h1>
+        <p>why wait till you finsh highschool to start your collage on campus experince when you can get a head start and discover your real pasion</p>
+         <div class="row">
+            <div class="intermediate-col">
+                <h3>CODING</h3>
+                <p>msh 3arfa akteb eh hna awy fa hasebha kda l 7ad ma akhalas el tutorial</p>
+                <a href=""class="apply-btn">LEARN MORE</a>
+        </div>
+        <div class="intermediate-col">
+            <h3>DESIGN</h3>
+            <p>msh 3arfa akteb eh hna awy fa hasebha kda l 7ad ma akhalas el tutorial</p>
+            <a href=""class="apply-btn">LEARN MORE</a>
+        </div>
+        <div class="intermediate-col">
+            <h3>LAW</h3>
+            <p>msh 3arfa akteb eh hna awy fa hasebha kda l 7ad ma akhalas el tutorial</p>
+            <a href=""class="apply-btn">LEARN MORE</a>
+        </div>
+        <div class="intermediate-col">
+            <h3>ECONOMICS</h3>
+            <p>msh 3arfa akteb eh hna awy fa hasebha kda l 7ad ma akhalas el tutorial</p>
+            <a href=""class="apply-btn">LEARN MORE</a>
+        </div>
+    </section>
+
+   
+
+
+</section>
+
+<!-------------------------------footer----------------------------->
+<section class="footer">
+    <h4>FIND US</h4>
+    <p>beyb2o katbin kalam ktir melaza2 fi ba3d fi akher kol website fa olt a3ml zayahom</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!---------------- JavaScript for toggle menu---------------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
